@@ -1,0 +1,27 @@
+@font-face {font-family: "Oswald";
+src: url("fonts/Oswald/Oswald-ExtraLight.ttf");
+font-weight: 500}
+@font-face {font-family: "Oswald-bold";
+    src: url("fonts/Oswald/Oswald-Bold.ttf");
+    font-weight: 200}
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+h1
+ {color:blue;
+font-family: "Roboto", sans-serif;
+text-align: center;
+}
+.bold {font-weight: bold;}
+.content {color:grey;font-size: 24px;font-family: "Kodchasen", sans-serif;text-align: justify;line-height: 50px;margin: 10px 20px;max-width: 75%;} 
+h2 {color: chocolate;
+font-family: "Lora", sans-serif}
+h3 {font-family: "Roboto", sans-serif}
+#Bio-header {color: brown;}
+#Skills-header {color: yellow;}
+.img-div {background-color: lightblue;}
+.light {background-color: aliceblue;}
+img {width: 12%;
+box-shadow: 3px 3px 7px black;
+margin: 2%}
+#img-1 {visibility: hidden;}

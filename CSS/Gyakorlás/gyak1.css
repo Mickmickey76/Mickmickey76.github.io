@@ -1,0 +1,76 @@
+@font-face {font-family:"test";
+    src: url("Fonts/bangers-regular.ttf");
+    font-weight: 200
+}
+
+body {
+    background-color: rgba(0,255,0,0.2);
+}
+
+#koszontes {
+    font-family: "test", helvetica;
+    font-size: 25px;
+    background-color: pink;
+    margin-top: 50px;
+}
+#koszontes2 {
+    font-family: sans-serif, Tahoma, Arial;
+    font-style: italic;
+    font-weight: 800;
+    color: blue;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    border: dotted 3px blue;
+    border-radius: 20px;
+    border-bottom-color: green;
+    border-bottom-left-radius: 40px;    
+
+}
+.test {
+    border: solid 3px grey;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px purple;
+    margin-bottom: 30px;
+ }
+#koszontes3 {
+    padding: 10 10 10 10;
+    font-size: 60px;
+    font-family:"test";
+    margin-left: 30px;
+}
+img {
+    visibility: visible;
+    border: solid 5px orange;
+    border-radius: 10px;
+    }
+
+.talan {
+    border: solid 10px yellow;
+    position: relative;
+    top: 30px;
+    left: 10px;
+  }  
+  #testh4 {
+    color: rgba(0,0,255,0.5);
+    font-family:"test";
+    font-size: 20px;
+  }
+  
+  input#fname {
+    background-color:blue;
+  }
+  input#lname {
+      background-color: gold;
+  }
+  label#label {
+      font-family: "test", sans-serif, arial;
+  }
+  input[type=text] {
+      border-radius: 30px;
+  }
+  .radiotest {
+      font-size: 35px;
+  }
